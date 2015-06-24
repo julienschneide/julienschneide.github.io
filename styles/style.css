@@ -1,0 +1,39 @@
+body{
+
+    font-family: arial ;
+}
+
+
+.gras{
+    font-weight: bold;
+}
+
+p{
+    margin-left: 15px;
+}
+h1{
+    font-size: smaller;
+    margin-bottom: 15px;
+    border-bottom: solid 3px #f20553;
+}
+
+h2{
+    font-style: italic;
+    border-bottom: solid 1px #f20553;
+    margin-bottom: 20px;
+}
+
+h3{
+     margin-left: 15px;
+
+ }
+
+.ProgressGras {
+    float: left;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.progress{
+    margin-left: 200px;
+}
