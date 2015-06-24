@@ -1,0 +1,1 @@
+console.log("'Allo 'Allo!"),$('a[href^="#"]').click(function(){var a=$(this).attr("href");return $("html, body").animate({scrollTop:$(a).offset().top},"slow"),!1}),console.log("End");
