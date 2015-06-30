@@ -1,13 +1,4 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/" ng-click="monClick()">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-<!-- <input type="text" ng-model="nouveauFilm" />
+<div class="jumbotron"> <h1>'Allo, 'Allo!</h1> <p class="lead"> <img src="images/yeoman.c582c4d1.png" alt="I'm Yeoman"><br> Always a pleasure scaffolding your apps. </p> <p><a class="btn btn-lg btn-success" ng-href="#/" ng-click="monClick()">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p> </div> <!-- <input type="text" ng-model="nouveauFilm" />
 <p ng-bind="nouveauFilm"></p>
 
 <p>Salut uppercase: {{nouveauFilm |uppercase}} TTT</p>
@@ -22,25 +13,9 @@
 <input type="checkbox" ng-model="active" />
 <button class="btn btn-primary"  ng-click="debut = debut + 10;">+10</button>
 Nb a àfficher : <input type="number" ng-model="nbAffiche">
--->
-
-
-Ajouter un film : <input type="text" ng-model="nouveauFilm" value=""/>
-
-<button class="glyphicon glyphicon-plus" ng-click="addFilm()"></button>
-
-<div ng-show="active">
-  <ul>
-    <li ng-repeat="film in filmList track by $index">{{film}}   <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="removeFilm(film)">
-      <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-    </button></li>
-  </ul>
-</div>
-<br><br><br>
-<!-- <div ng-show="active">
+--> Ajouter un film : <input type="text" ng-model="nouveauFilm" value=""> <button class="glyphicon glyphicon-plus" ng-click="addFilm()"></button> <div ng-show="active"> <ul> <li ng-repeat="film in filmList track by $index">{{film}} <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="removeFilm(film)"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </button></li> </ul> </div> <br><br><br> <!-- <div ng-show="active">
   <ul>
     <li ng-repeat="el in awesomeThings | limitTo:nbAffiche:debut track by $index">{{el}}</li>
   </ul>
 </div>
 -->
-
